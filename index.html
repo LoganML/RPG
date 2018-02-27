@@ -24,6 +24,11 @@
     <div class="container col-lg-12" id="characters-section">
       <div class="container section-title">Select Your Character</div>
     </div>
+    <button type="button" onclick="bgmPlay()">play</button>
+<button style="button" onclick="bgmPause()">pause</button>
+<audio id="bgm" autoplay loop>
+<source src="assets/audio/duel.mp3" type="audio/mpeg" />
+</audio>
     <div class="container col-lg-4" id="selected-character-section">
       <div class="section-title container"></div>
       <div id="selected-character"></div>
@@ -46,8 +51,7 @@
     </div>
 
 
-<!--     <div class="jumbotron" id="gameMessage"></div>
- -->
+
   </div>
   <!-- JQuery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>

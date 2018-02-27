@@ -1,4 +1,14 @@
 
+var bgm=document.getElementById("bgm");
+function bgmPlay()
+{
+  bgm.play();
+}
+function bgmPause()
+{
+  bgm.pause();
+} 
+
 //Global variables
 $(document).ready(function() {
 
@@ -50,6 +60,8 @@ var indexofSelChar;
 var attackResult;
 var turnCounter = 1;
 var killCount = 0;
+
+
 
 
 var renderOne = function(character, renderArea, makeChar) {
@@ -226,6 +238,8 @@ var renderOne = function(character, renderArea, makeChar) {
     var gameState = $("<div>").text(inputEndGame);
     $("#gameMessage").append(gameState);
     $("#gameMessage").append(restart);
+
   };
+
 
 });

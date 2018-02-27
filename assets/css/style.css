@@ -1,4 +1,4 @@
-/*---------------------*/
+
 /* Body and background */
 /*---------------------*/
 body {
@@ -95,8 +95,8 @@ header {
   color: red;
 }
 
-/*---------------------*/
-/* Available Oponents  */
+
+/* Oponents  */
 /*---------------------*/
 #available-to-attack-section {
   float: right;
@@ -105,7 +105,7 @@ header {
 	height: 100px;
 }
 
-/*---------------------*/
+
 /*      Defender       */
 /*---------------------*/
 
@@ -123,8 +123,11 @@ header {
 #defender-health {
   text-align: center;
 }
+button{
+  color:red;
+}
 
-/*---------------------*/
+
 /*   Media Queries     */
 /*---------------------*/
 @media only screen and (max-device-width: 768px) {
